@@ -1,0 +1,208 @@
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(3, 8, 75, 0.719);
+  opacity: 0.9;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #f1e7e7;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 15px;}
+}
+
+#logo
+{
+  font-size: 18px;
+  width: 50vw;
+  margin-left: -.6%;
+  opacity: 0.9;
+  background-color: #f5f5f5;
+}
+html,body
+{
+  background-image: url("images/pes.png");
+  
+  background-size: cover;
+  background-repeat: repeat;
+  height: 100%;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  height: 100%;
+  z-index: 0;
+}
+#login-half
+{
+  display: table;
+  background-color:white;
+  opacity: 0.9;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  z-index: 0;
+}
+.fill-box
+{
+  border: 2px solid rgba(2, 27, 56  , 0.85);
+  color:black;width:65%;
+}
+#Submit
+{
+    margin-top: 5%;
+    margin-left:12.5%;
+    width:60%;
+    font-size: 18px;
+    border-radius:0;
+    color:rgba(2,27,56,0.85);
+    transition: 1s;
+}
+#Submit:hover
+{
+  color:rgba(255,255,255,0.85);
+  background-color: rgba(2,27,56,0.85);
+}
+#seperator
+{
+  color:white;
+  border: .1vw solid rgba(2,27,56,0.85);
+}
+.input_modify
+{
+  border-color: rgba(2,27,56,0.85);
+  border-radius: .2vw;
+  color:black;
+  border-width: .05vw;
+  font-size: 18px;
+  width:100%;
+}
+input{
+  color:black;
+  border-color: rgba(2,27,56,0.85);
+  border-radius: .2vw;
+  border-width: .05vw;
+  font-size: 18px;
+  width:85%;
+  margin-left:10%;
+}
+#login-half-even
+{
+}
+#part1
+{
+  background-color: rgba(2,27,56,0.85);
+}
+#extra
+{
+  margin-top:25%;
+}
+#links a
+{
+  font-family:"Open Sans", Helvetica, Arial, sans-serif;
+  display: block;
+  font-size: 18px;
+  color: #fff;
+  padding: 1% 5%;
+  text-decoration: none;
+  border: 3px solid #4e6074;
+  transition: 0.5s;
+}
+#links a:hover
+{
+  background-color:whitesmoke;
+  color:rgba(2,27,56,0.85);
+}
+#adminform
+{
+  font-family:"Open Sans", "Open Sans", Helvetica, Arial, sans-serif;
+  background-color: rgba(3, 8, 75, 0.719);
+  opacity: 0.9;
+}
+
+#adminbody
+{
+  background-color: rgba(2,27,56,0.85);
+  opacity: 0.9;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  padding-bottom:15%;
+}
+#Login
+{
+    margin-top: 5%;
+    margin-left:20%;
+    width:60%;
+    font-size:18px;
+    border-radius:0;
+    background-color: rgba(3, 8, 75, 0.719);
+    background-color: rgba(2,27,56,0.85);
+    transition: 1s;
+}
+#Login:hover
+{
+  color:rgba(2,27,56,0.85);
+  background-color: rgba(255,255,255,0.85);
+}
+#footer
+{
+  padding-top: 5%;
+  padding-left: 5%;
+  align-content:center;
+}
+
+#footer button
+{
+  color:rgba(2,27,56,0.85);
+  transition: 1s;
+  border: whitesmoke solid 0vw;
+  padding: 1vw;
+
+}
+#footer button:hover
+{
+  color:rgba(255,255,255,0.85);
+  background-color: rgba(2,27,56,0.85);
+  border: whitesmoke solid .1vw;
+}
+
+#footer a
+{
+  color:rgba(2,27,56,0.85);
+  transition: 1s;
+  border: whitesmoke solid 0vw;
+  padding: 1vw;
+  background-color: rgb(240, 77, 77);
+  text-decoration: none;
+}
+#footer a:hover
+{
+  color:rgba(255,255,255,0.85);
+  background-color: rgba(2,27,56,0.85);
+  border: whitesmoke solid .1vw;
+}

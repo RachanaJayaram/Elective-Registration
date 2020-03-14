@@ -1,0 +1,57 @@
+html,body
+{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 96%;
+  font-weight: 500;
+  height: 100%;
+}
+#Submit
+{
+    margin-top: 5%;
+    margin-left:12.5%;
+    width:100%;
+    font-size: 3vw;
+    border-radius:0;
+    color:rgba(2,27,56,0.85);
+    transition: 1s;
+}
+#Submit:hover
+{
+  color:rgba(255,255,255,0.85);
+  background-color: rgba(2,27,56,0.85);
+}
+#part1
+{
+  background-color: #f5f5f5;
+  opacity: 0.9;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 2.5vw;
+}
+
+.input_modify
+{
+  border-color: rgba(2,27,56,0.85);
+  border-radius: .2vw;
+  border-width: .05vw;
+  font-size: 2vw;
+  width:100%;
+  margin-top:10%;
+}
+.custom_table
+{
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  background-color:#f5f5f5;
+  border-radius: 1vw;
+  overflow: hidden;
+}
+.custom_table td
+{
+  font-size: 1.5vw;
+}
+.custom_table td:hover
+{
+  background-color: rgba(2,27,56,0.85);
+  color:whitesmoke;
+}
